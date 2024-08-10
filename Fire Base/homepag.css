@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+}
+.container {
+  background-image: url(./img/image1.png);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pera-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pera-container h1 {
+  background-color: rgba(95, 93, 93, 0.591);
+  padding: 50px;
+  color: white;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-section {
+  width: 80%;
+  text-align: center;
+
+  h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    line-height: 1.6;
+  }
+}
+/* second comple */
+
+.third {
+  background-image: url(./img/image2.png);
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-section h1 {
+  padding: 20px;
+  background-color: rgba(72, 72, 72, 0.464);
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.fourt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(45, 45, 45);
+}
+.fourt-section {
+  width: 80%;
+  text-align: center;
+  color: white;
+  margin: 40px;
+
+  h1 {
+    font-size: 30px;
+    font-family: "Arial Narrow", Arial;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  p {
+    margin-top: 30px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: rgba(145, 136, 136, 0.995);
+    /* *********** */
+  }
+}
+/* third complet */
+.fifth {
+  background-image: url(./img/image3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fifth h1 {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: rgba(69, 68, 68, 0.395);
+}
+
+#logout {
+  padding: 10px 20px;
+  font-size: 17px;
+  background-color: slategray;
+  margin-top: 40px;
+  margin-left: 50%;
+
+  border: none;
+  border-radius: 5px;
+}
+#logout:hover {
+  background-color: tomato;
+}
+
+/* Responcive css */
+
+@media (max-width: 578px) {
+  .pera-container h1 {
+    padding: 10px;
+  }
+
+  .second-section h2 {
+    font-size: 24px;
+  }
+
+  .second-section p {
+    font-size: 14px;
+  }
+
+  .third-section h1 {
+    font-size: 24px;
+  }
+
+  .fourt-section h1 {
+    font-size: 24px;
+  }
+
+  .fourt-section p {
+    font-size: 14px;
+  }
+
+  .fifth-section h1 {
+    font-size: 30px;
+  }
+}
